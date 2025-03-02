@@ -10,5 +10,5 @@ pip install -r requirements.txt
 # Run migrations
 python manage.py migrate
 
-# Collect static files
+# Collect static fileshello
 python manage.py collectstatic --noinput
