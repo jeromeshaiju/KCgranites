@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-xu^!s=y0+y=_gw&be*!&!#-lo9iwf7q!1m@4oj4)fvgicu-kzb
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv("DEBUG", "False") == "True"
-ALLOWED_HOSTS = [os.environ.get(" https://kc-granites-ddgif8yhp-jeromes-projects-96213064.vercel.app", "localhost")]
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
