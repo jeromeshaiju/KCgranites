@@ -1,0 +1,35 @@
+footer {
+    background-color: #8B0000;
+    color: white;
+    padding: 20px 0;
+}
+.hero-section {
+    background: url("/static/pic/pic5.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.large-text {
+    font-size: 1.10rem; /* Adjust the size as needed */
+}
+.hero-section .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
